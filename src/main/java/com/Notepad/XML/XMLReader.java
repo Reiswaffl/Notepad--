@@ -20,8 +20,8 @@ import javax.xml.transform.stream.StreamResult;
  * @brief this class is to get or create Node-Elements into the XML-File
  */
 public class XMLReader {
-    Document doc;
-    String filepath;
+    private Document doc;
+    private String filepath;
 
     /**
      * brief setup, loading XML-File
