@@ -85,4 +85,43 @@ public class XMLReader {
             }
         }
     }
+
+    /**
+     * @brief allows to set a TextContent to a Node
+     * @param node Node to add the TextContent
+     * @param content
+     */
+    public void setContent(Node node, String content){
+        if(node.getNodeType() == Node.ELEMENT_NODE){
+            Element element = (Element) node;
+            element.setTextContent(content);
+            try {
+                TransformerFactory transformerFactory = TransformerFactory.newInstance();
+                Transformer transformer = transformerFactory.newTransformer();
+                DOMSource source = new DOMSource(doc);
+                StreamResult result = new StreamResult(new File(filepath));
+                transformer.transform(source, result);
+            }catch (Exception e){
+                System.out.println(e);
+            }
+        }
+    }
+
+    /**
+     * @brief makes it possible to delete a Node
+     * @param parent parent to delete the Node from
+     * @param node Node to delete
+     */
+    public void deleteNode(Node parent, Node node){
+        parent.removeChild(node);
+        try {
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            DOMSource source = new DOMSource(doc);
+            StreamResult result = new StreamResult(new File(filepath));
+            transformer.transform(source, result);
+        }catch (Exception e){
+            System.out.println(e);
+        }
+    }
 }

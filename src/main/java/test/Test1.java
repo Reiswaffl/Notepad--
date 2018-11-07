@@ -12,10 +12,12 @@ public class Test1 {
         NodeList users = xmlReader.getNodes("user");
         for(int i = 0; i < users.getLength(); i++){
             Node user = users.item(0);
-            xmlReader.setAtt(user,"att","value");
-            if(user.getNodeType() == Node.ELEMENT_NODE){
-                Element euser = (Element) user;
-                System.out.println("--" + euser.getTextContent());
+            for(int n = 0; n < user.getChildNodes().getLength(); n++){
+                Node note = user.getChildNodes().item(n);
+                if (note.getNodeType() == Node.ELEMENT_NODE){
+                    Element element = (Element) note;
+                    if(element.getAttribute("date").equals("dd.MM.yyyy")) xmlReader.deleteNode(user,note);
+                }
             }
         }
     }
