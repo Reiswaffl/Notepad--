@@ -47,21 +47,31 @@ public class XMLReader {
     }
 
     /**
-     * brief returns the root-Element as Node
-     * @param rootname name of the root-Element
-     * @return Node: root-Element
-     */
-    public Node getRoot(String rootname){
-        return doc.getElementsByTagName(rootname).item(0);
-    }
-
-    /**
      * @brief returns all ChildNodes of a Node
      * @param tagname tagname of the Nodes
      * @return NodeList: ChildNodes
      */
     public NodeList getNodes(String tagname){
         return doc.getElementsByTagName(tagname);
+    }
+
+    /**
+     * @brief allows it to add a Node
+     * @param parent parent, the Node will be the child from
+     * @param identifier identifier (tag) of the new Node
+     * @return
+     */
+    public Node setNode(Node parent, String identifier){
+        Element element = doc.createElement(identifier);
+        parent.appendChild(element);
+        try {
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            DOMSource source = new DOMSource(doc);
+            StreamResult result = new StreamResult(new File(filepath));
+            transformer.transform(source, result);
+        }catch (Exception e){}
+        return (Node) element;
     }
 
     /**

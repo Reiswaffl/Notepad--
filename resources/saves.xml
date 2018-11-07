@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><saves>
     <user att="value" id="User">
         <note date="00.00.0000" end="hh:mm" start="hh:mm">content</note>
+        <note date="dd.MM.yyyy" end="hh.mm" start="hh.mm">content</note>
     </user>
 </saves>

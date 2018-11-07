@@ -12,13 +12,11 @@ public class Test1 {
         NodeList users = xmlReader.getNodes("user");
         for(int i = 0; i < users.getLength(); i++){
             Node user = users.item(0);
-            for(int n = 0; n < user.getChildNodes().getLength(); n++){
-                Node note = user.getChildNodes().item(n);
-                if (note.getNodeType() == Node.ELEMENT_NODE){
-                    Element element = (Element) note;
-                    if(element.getAttribute("date").equals("dd.MM.yyyy")) xmlReader.deleteNode(user,note);
-                }
-            }
+            Node note = xmlReader.setNode(user,"note");
+            xmlReader.setAtt(note,"date","dd.MM.yyyy");
+            xmlReader.setAtt(note,"start","hh.mm");
+            xmlReader.setAtt(note,"end","hh.mm");
+            xmlReader.setContent(note,"content");
         }
     }
 }

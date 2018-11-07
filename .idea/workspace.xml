@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1864693-94f3-4f7e-83c3-15d6b90e5da5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/filepath" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/saves.xml" afterPath="$PROJECT_DIR$/resources/saves.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Notepad/XML/XMLReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/Notepad/XML/XMLReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test/Test1.java" afterPath="$PROJECT_DIR$/src/main/java/test/Test1.java" />
@@ -21,20 +19,23 @@
       <file leaf-file-name="XMLReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/XML/XMLReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="112" column="33" lean-forward="false" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+            <state relative-caret-position="589">
+              <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#XMLReader#0" expanded="false" />
                 <element signature="docComment;method#XMLReader#0;class#XMLReader#0" expanded="false" />
+                <element signature="method#XMLReader#0;class#XMLReader#0" expanded="false" />
                 <element signature="docComment;method#Update#0;class#XMLReader#0" expanded="false" />
                 <element signature="method#Update#0;class#XMLReader#0" expanded="false" />
-                <element signature="docComment;method#getRoot#0;class#XMLReader#0" expanded="false" />
                 <element signature="docComment;method#getNodes#0;class#XMLReader#0" expanded="false" />
+                <element signature="docComment;method#setNode#0;class#XMLReader#0" expanded="false" />
+                <element signature="method#setNode#0;class#XMLReader#0" expanded="false" />
                 <element signature="docComment;method#setAtt#0;class#XMLReader#0" expanded="false" />
                 <element signature="method#setAtt#0;class#XMLReader#0" expanded="false" />
                 <element signature="docComment;method#setContent#0;class#XMLReader#0" expanded="false" />
                 <element signature="method#setContent#0;class#XMLReader#0" expanded="false" />
+                <element signature="docComment;method#deleteNode#0;class#XMLReader#0" expanded="false" />
                 <element signature="method#deleteNode#0;class#XMLReader#0" expanded="false" />
               </folding>
             </state>
@@ -56,8 +57,8 @@
       <file leaf-file-name="saves.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/saves.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state relative-caret-position="85">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -83,9 +84,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/Notepad/XML/XMLReader.java" />
-        <option value="$PROJECT_DIR$/resources/saves.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test/Test1.java" />
+        <option value="$PROJECT_DIR$/resources/saves.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Notepad/XML/XMLReader.java" />
       </list>
     </option>
   </component>
@@ -415,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/saves.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -433,20 +434,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/XML/XMLReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="112" column="33" lean-forward="false" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+        <state relative-caret-position="589">
+          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#XMLReader#0" expanded="false" />
             <element signature="docComment;method#XMLReader#0;class#XMLReader#0" expanded="false" />
+            <element signature="method#XMLReader#0;class#XMLReader#0" expanded="false" />
             <element signature="docComment;method#Update#0;class#XMLReader#0" expanded="false" />
             <element signature="method#Update#0;class#XMLReader#0" expanded="false" />
-            <element signature="docComment;method#getRoot#0;class#XMLReader#0" expanded="false" />
             <element signature="docComment;method#getNodes#0;class#XMLReader#0" expanded="false" />
+            <element signature="docComment;method#setNode#0;class#XMLReader#0" expanded="false" />
+            <element signature="method#setNode#0;class#XMLReader#0" expanded="false" />
             <element signature="docComment;method#setAtt#0;class#XMLReader#0" expanded="false" />
             <element signature="method#setAtt#0;class#XMLReader#0" expanded="false" />
             <element signature="docComment;method#setContent#0;class#XMLReader#0" expanded="false" />
             <element signature="method#setContent#0;class#XMLReader#0" expanded="false" />
+            <element signature="docComment;method#deleteNode#0;class#XMLReader#0" expanded="false" />
             <element signature="method#deleteNode#0;class#XMLReader#0" expanded="false" />
           </folding>
         </state>
