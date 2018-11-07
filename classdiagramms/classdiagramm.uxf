@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>630</y>
+      <w>360</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>XMLReader
+--
+Document doc 
+String filepath
+--
+NodeList getNodes(String parent, String nodeID)
+NodeList gerUsers(String user)
+void setNode(Node parent, Node node)
+void setAtt(Node node, String attName, String attValue)
+void setContent(Node node, String content)
+void deleteNode(Node parent, Node node)
+void Update()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>710</x>
+      <y>890</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>    XML-File</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>800</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+writes in / reads from </panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>260</x>
+      <y>110</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>GUI ..........................
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>130</x>
+      <y>0</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Actor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>30</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+interacts with</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0;180.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>230</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>final Logic
+--
+Transformer Transformer
+--
+void setup()
+void addNote(String time)
+void addUser(String name)
+String getNotes()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>130</y>
+      <w>290</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+gets String information from &gt;
+&lt; get String input from </panel_attributes>
+    <additional_attributes>10.0;20.0;270.0;20.0;270.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>430</y>
+      <w>270</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Transformer
+--
+XMLReader xmlReader
+--
+void setup()
+void addNote(String user, String date, String start)
+void addUser(String name)
+Note getNotes(String user)
+ArrayList&lt;String&gt; getUserNames()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>160</y>
+      <w>300</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Note
+--
+ArrayList&lt;String&gt; start
+ArrayList&lt;String&gt; end
+ArrayList&lt;String&gt; content
+--
+Note()
+void addNote(String start, String end, String content)
+ArrayList&lt;String&gt; getStart()
+ArrayList&lt;String&gt; getEnd()
+ArrayList&lt;String&gt; getContent()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>550</y>
+      <w>220</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+gives Nodes to/ get Nodes from</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>320</y>
+      <w>70</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+returns</panel_attributes>
+    <additional_attributes>10.0;130.0;50.0;130.0;50.0;10.0</additional_attributes>
+  </element>
+</diagram>

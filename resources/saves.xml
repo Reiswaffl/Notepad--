@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<saves>
+    <user>
+        <!-- note-example!-->
+        <note date="dd.MM.yyyy" start="hh:mm" end="hh:mm">CONTENT</note>
+        <!-- note-example end!-->
+    </user>
+</saves>
