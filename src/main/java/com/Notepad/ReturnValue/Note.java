@@ -31,21 +31,21 @@ public class Note {
     /**
      * @return all startvalues
      */
-    ArrayList<String> getStart(){
+    public ArrayList<String> getStart(){
         return start;
     }
 
     /**
      * @return all endvalues
      */
-    ArrayList<String> getEnd(){
+    public ArrayList<String> getEnd(){
         return end;
     }
 
     /**
      * @return all contentvalues
      */
-    ArrayList<String> getContent(){
+    public ArrayList<String> getContent(){
         return content;
     }
 }

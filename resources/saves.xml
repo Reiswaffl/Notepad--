@@ -1,10 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<saves>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><saves>
+    <currentUser id="User"/>
     <user att="value" id="User">
         <note date="00.00.0000" end="hh:mm" start="hh:mm">content</note>
         <note date="dd.MM.yyyy" end="hh.mm" start="hh.mm">content</note>
         <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
         <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
         <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
-    </user>
-</saves>
+        <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
+        <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
+        <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
+        <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
+        <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
+        <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
+        <note date="12.03.jjjj" end="ss.mm" start="ss.mm">myContent</note>
+    <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note><note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note></user>
+</saves>>
