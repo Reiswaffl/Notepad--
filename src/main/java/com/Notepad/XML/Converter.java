@@ -103,6 +103,10 @@ public class Converter {
         return noteReturn;
     }
 
+    /**
+     * @brief returns currentUser as a String
+     * @return String, currentUser
+     */
     public String getCurrentUser(){
         Node currentUser = xmlReader.getNodes("currentUser").item(0);
         if(currentUser.getNodeType() == Node.ELEMENT_NODE){
