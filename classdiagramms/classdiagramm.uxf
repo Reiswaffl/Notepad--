@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>544</y>
+      <x>416</x>
+      <y>560</y>
       <w>288</w>
       <h>136</h>
     </coordinates>
@@ -25,8 +25,8 @@ void Update()</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>576</x>
-      <y>744</y>
+      <x>504</x>
+      <y>760</y>
       <w>88</w>
       <h>24</h>
     </coordinates>
@@ -36,8 +36,8 @@ void Update()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>608</x>
-      <y>672</y>
+      <x>536</x>
+      <y>688</y>
       <w>128</w>
       <h>88</h>
     </coordinates>
@@ -48,8 +48,8 @@ writes in / reads from </panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>216</x>
-      <y>120</y>
+      <x>144</x>
+      <y>136</y>
       <w>112</w>
       <h>56</h>
     </coordinates>
@@ -61,8 +61,8 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>112</x>
-      <y>32</y>
+      <x>40</x>
+      <y>48</y>
       <w>48</w>
       <h>88</h>
     </coordinates>
@@ -72,8 +72,8 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>56</y>
+      <x>72</x>
+      <y>72</y>
       <w>160</w>
       <h>80</h>
     </coordinates>
@@ -84,8 +84,8 @@ interacts with</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
-      <y>216</y>
+      <x>192</x>
+      <y>232</y>
       <w>328</w>
       <h>104</h>
     </coordinates>
@@ -103,8 +103,8 @@ String getNotes()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>136</y>
+      <x>248</x>
+      <y>152</y>
       <w>232</w>
       <h>96</h>
     </coordinates>
@@ -116,8 +116,8 @@ gets String information from &gt;
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>376</y>
+      <x>288</x>
+      <y>392</y>
       <w>392</w>
       <h>128</h>
     </coordinates>
@@ -139,8 +139,8 @@ String getcurrentUser()
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>664</x>
-      <y>160</y>
+      <x>592</x>
+      <y>176</y>
       <w>240</w>
       <h>128</h>
     </coordinates>
@@ -160,8 +160,8 @@ ArrayList&lt;String&gt; getContent()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
-      <y>496</y>
+      <x>544</x>
+      <y>512</y>
       <w>176</w>
       <h>64</h>
     </coordinates>
@@ -172,8 +172,8 @@ gives Nodes to/ get Nodes from</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>744</x>
-      <y>288</y>
+      <x>672</x>
+      <y>304</y>
       <w>72</w>
       <h>120</h>
     </coordinates>
@@ -184,8 +184,8 @@ returns</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>544</x>
-      <y>312</y>
+      <x>472</x>
+      <y>328</y>
       <w>176</w>
       <h>80</h>
     </coordinates>
@@ -197,8 +197,8 @@ getsNotesFrom / give Notes to
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>160</y>
+      <x>488</x>
+      <y>176</y>
       <w>120</w>
       <h>72</h>
     </coordinates>
