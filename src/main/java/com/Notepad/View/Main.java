@@ -5,7 +5,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -17,12 +19,15 @@ public class Main extends Application{
         launch(args);
     }
     public void start(Stage primaryStage){
-        File f = new File("resources/modern.css");
+        File f = new File("resources/CSS/modern.css");
         primaryStage.setTitle("Notepad--");
 
-        AnchorPane pane = new AnchorPane();
+        BorderPane pane = new BorderPane();
+
         Label userName = new Label();
         userName.setText("username");
+
+
 
         Button changeUser = new Button();
         changeUser.setText("Change User");
@@ -31,8 +36,10 @@ public class Main extends Application{
         top.getChildren().add(userName);
         top.getChildren().add(changeUser);
 
-        pane.getChildren().add(top);
-        Scene scene = new Scene(pane,300,600);
+
+        pane.setTop(top);
+
+        Scene scene = new Scene(pane,600,800);
         scene.getStylesheets().add("file:///" + f.getAbsolutePath().replace("\\","/"));
         primaryStage.setScene(scene);
         primaryStage.show();

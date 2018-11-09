@@ -1,28 +1,30 @@
 .root{
   -fx-background-color: #1c334a;
-  -fx-font-size: 12pt;
+  -fx-font-size: 16pt;
 }
 .label{
   -fx-font-family: Oxygen;
   -fx-text-fill: #ec6a13;
+
 }
 .button{
   -fx-background-color: #1c334a;
   -fx-background-radius: 22;
+
   -fx-font-size: 16;
   -fx-text-fill:  #ec6a13;
   -fx-border-color: #ec6a13;
   -fx-border-radius: 20;
-  -fx-border-width: 1;
+  -fx-border-width: 2;
 }
 .button:hover{
-  -fx-background-color: white;
+  -fx-background-color: grey;
   -fx-background-radius: 22;
   -fx-font-size: 16;
   -fx-text-fill:  #ec6a13;
   -fx-border-color: #ec6a13;
   -fx-border-radius: 20;
-  -fx-border-width: 1;
+  -fx-border-width: 2;
 }
 .button:pressed{
   -fx-background-color: none;
@@ -31,5 +33,5 @@
   -fx-text-fill:  #ec6a13;
   -fx-border-color:  #ec6a13;
   -fx-border-radius: 20;
-  -fx-border-width: 1;
+  -fx-border-width: 2;
 }

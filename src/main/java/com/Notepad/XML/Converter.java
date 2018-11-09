@@ -16,7 +16,7 @@ public class Converter {
     }
 
     public void setup(){
-        xmlReader = new XMLReader("resources/saves.xml");
+        xmlReader = new XMLReader("resources/XML/saves.xml");
     }
 
     /**
