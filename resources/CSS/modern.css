@@ -5,8 +5,8 @@
 .label{
   -fx-font-family: Oxygen;
   -fx-text-fill: #ec6a13;
-
 }
+
 .button{
   -fx-background-color: #1c334a;
   -fx-background-radius: 22;
@@ -34,4 +34,28 @@
   -fx-border-color:  #ec6a13;
   -fx-border-radius: 20;
   -fx-border-width: 2;
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane {
+   -fx-background-color: transparent;
+}
+.check-box .box {
+  -fx-background-color: grey;
+  -fx-border-color: none ;
+}
+.check-box .box .mark{
+  -fx-padding: 5px;
+
+}
+.check-box .mark:active {
+  -fx-background-color: #ec6a13;
+  -fx-border-color: #ec6a13 ;
+}
+.menu-item .label {
+    -fx-text-fill: #1c334a;
+}
+.menu-bar {
+    -fx-background-color: #ec6a13;
 }

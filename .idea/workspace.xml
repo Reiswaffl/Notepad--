@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1864693-94f3-4f7e-83c3-15d6b90e5da5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/modern.css" afterPath="$PROJECT_DIR$/resources/CSS/modern.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/saves.xml" afterPath="$PROJECT_DIR$/resources/XML/saves.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Notepad--/main/java/com/Notepad/View/Main.class" afterPath="$PROJECT_DIR$/out/production/Notepad--/main/java/com/Notepad/View/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Notepad--/main/java/com/Notepad/XML/Converter.class" afterPath="$PROJECT_DIR$/out/production/Notepad--/main/java/com/Notepad/XML/Converter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Notepad/XML/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/com/Notepad/XML/Converter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/CSS/modern.css" afterPath="$PROJECT_DIR$/resources/CSS/modern.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Notepad/View/MainScene.fxml" afterPath="$PROJECT_DIR$/src/main/java/com/Notepad/View/MainScene.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="17">
+              <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
               <folding>
                 <element signature="e#1253#1254#0" expanded="true" />
                 <element signature="e#1281#1282#0" expanded="true" />
@@ -33,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainScene.fxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainScene.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/MainScene.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="441">
+              <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -119,10 +115,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,13 +397,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22455405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22455405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -419,6 +414,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -459,13 +455,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/MainScene.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,17 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-          <folding>
-            <element signature="docComment;method#Note#0;class#Note#0" expanded="false" />
-            <element signature="method#Note#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getStart#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getEnd#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getContent#0;class#Note#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,15 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="59" column="64" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#switchUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#switchUser#0;class#Logic#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,9 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,17 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-          <folding>
-            <element signature="docComment;method#Note#0;class#Note#0" expanded="false" />
-            <element signature="method#Note#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getStart#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getEnd#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getContent#0;class#Note#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,15 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="59" column="64" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#switchUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#switchUser#0;class#Logic#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,9 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,17 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-          <folding>
-            <element signature="docComment;method#Note#0;class#Note#0" expanded="false" />
-            <element signature="method#Note#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getStart#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getEnd#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getContent#0;class#Note#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,15 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="59" column="64" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#switchUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#switchUser#0;class#Logic#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,9 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,17 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-          <folding>
-            <element signature="docComment;method#Note#0;class#Note#0" expanded="false" />
-            <element signature="method#Note#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getStart#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getEnd#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getContent#0;class#Note#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,15 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="59" column="64" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#switchUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#switchUser#0;class#Logic#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,9 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,15 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="59" column="64" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#addUser#0;class#Logic#0" expanded="false" />
-            <element signature="docComment;method#switchUser#0;class#Logic#0" expanded="false" />
-            <element signature="method#switchUser#0;class#Logic#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,17 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-          <folding>
-            <element signature="docComment;method#Note#0;class#Note#0" expanded="false" />
-            <element signature="method#Note#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="method#addNote#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getStart#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getEnd#0;class#Note#0" expanded="false" />
-            <element signature="docComment;method#getContent#0;class#Note#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -961,11 +871,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/modern.css">
+    <entry file="file://$PROJECT_DIR$/resources/modern.css" />
+    <entry file="file://$PROJECT_DIR$/resources/CSS/modern.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding>
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,32 +902,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/MainScene.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="441">
+          <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/CSS/modern.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding>
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
   </component>
