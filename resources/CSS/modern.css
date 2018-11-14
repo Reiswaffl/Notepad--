@@ -14,8 +14,7 @@
   -fx-font-size: 16;
   -fx-text-fill:  #ec6a13;
   -fx-border-color: #ec6a13;
-  -fx-border-radius: 20;
-  -fx-border-width: 2;
+
 }
 .button:hover{
   -fx-background-color: grey;
@@ -23,8 +22,7 @@
   -fx-font-size: 16;
   -fx-text-fill:  #ec6a13;
   -fx-border-color: #ec6a13;
-  -fx-border-radius: 20;
-  -fx-border-width: 2;
+
 }
 .button:pressed{
   -fx-background-color: none;
@@ -32,8 +30,7 @@
   -fx-font-size: 16;
   -fx-text-fill:  #ec6a13;
   -fx-border-color:  #ec6a13;
-  -fx-border-radius: 20;
-  -fx-border-width: 2;
+
 }
 .scroll-pane > .viewport {
    -fx-background-color: transparent;
@@ -53,9 +50,23 @@
   -fx-background-color: #ec6a13;
   -fx-border-color: #ec6a13 ;
 }
-.menu-item .label {
-    -fx-text-fill: #1c334a;
+.menu-button .label {
+    -fx-text-fill: #ec6a13;
+    -fx-font-size: 12pt;
 }
-.menu-bar {
-    -fx-background-color: #ec6a13;
+.menu-button {
+    -fx-background-color: #1c334a;
+    -fx-pref-width: 120;
+    -fx-pref-heigh: 20;
+    -fx-border-color: #ec6a13;
+}
+.text-field{
+      -fx-background-color: #1c334a;
+      -fx-border-color: #ec6a13;
+      -fx-prompt-text-fill: grey;
+      -fx-font-size: 12pt;
+      -fx-text-fill: #ec6a13;
+      -fx-pref-width: 100;
+      -fx-pref-heigh: 20;
+      -fx-border-width: 0 0 1 0;
 }
