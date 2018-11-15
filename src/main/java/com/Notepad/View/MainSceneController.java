@@ -129,4 +129,40 @@ public class MainSceneController implements Initializable{
 
     public void handleI31(ActionEvent event) {
     }
+
+    public void handleIJanuary(ActionEvent event) {
+    }
+
+    public void handleIFebruary(ActionEvent event) {
+    }
+
+    public void handleIMarch(ActionEvent event) {
+    }
+
+    public void handleIApril(ActionEvent event) {
+    }
+
+    public void handleIMai(ActionEvent event) {
+    }
+
+    public void handleIJune(ActionEvent event) {
+    }
+
+    public void handleIJuly(ActionEvent event) {
+    }
+
+    public void handleIAugust(ActionEvent event) {
+    }
+
+    public void handleISeptember(ActionEvent event) {
+    }
+
+    public void handleIOctober(ActionEvent event) {
+    }
+
+    public void handleINovember(ActionEvent event) {
+    }
+
+    public void handleIDecember(ActionEvent event) {
+    }
 }

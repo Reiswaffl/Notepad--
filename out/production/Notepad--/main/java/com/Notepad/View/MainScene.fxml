@@ -71,7 +71,22 @@
                             <MenuItem  mnemonicParsing="false" onAction="#handleI31" text="31"></MenuItem>
                             </items>
                         </MenuButton>
-                        <MenuButton fx:id="month" text="MONTH"></MenuButton>
+                        <MenuButton fx:id="month" text="MONTH">
+                            <items>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIJanuary" text="Januar"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIFebruary" text="February"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIMarch" text="March"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIApril" text="April"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIMai" text="Mai"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIJune" text="June"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIJuly" text="July"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIAugust" text="August"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleISeptember" text="September"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIOctober" text="October"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleINovember" text="November"></MenuItem>
+                                <MenuItem  mnemonicParsing="false" onAction="#handleIDecember" text="December"></MenuItem>
+                            </items>
+                        </MenuButton>
                         <TextField fx:id="year" promptText="YEAR"></TextField>
                     </children>
                 </HBox>
