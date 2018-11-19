@@ -8,6 +8,7 @@
 
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.shape.Line?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="main.java.com.Notepad.View.MainSceneController"
@@ -17,13 +18,14 @@
             <children>
                 <HBox alignment="CENTER" spacing="150.0">
                     <children>
-                        <Label  fx:id="userName" text="userName"/>
+                        <TextField fx:id="yearField" promptText="YEAR" prefWidth="250.0"></TextField>
                         <Button mnemonicParsing="false" onAction="#changeUser" text="CHANGE USER"/>
                     </children>
                 </HBox>
+                <Line startX="20" endX="480"></Line>
                 <HBox alignment="CENTER" spacing="20.0">
                     <children>
-                        <ScrollPane fx:id="scrollPane" prefWidth="450" prefHeight="550" >
+                        <ScrollPane fx:id="scrollPane" prefWidth="450" prefHeight="525" >
                             <HBox alignment="CENTER" spacing="50.0">
                                 <children>
                                     <Label fx:id="content" text="-->"></Label>
@@ -34,44 +36,11 @@
                         </ScrollPane>
                     </children>
                 </HBox>
+                <Line startX="20" endX="480"></Line>
                 <HBox spacing="20.0" alignment="CENTER">
                     <children>
-                        <MenuButton fx:id="day" text="DAY">
-                            <items>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI1" text="01"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI2" text="02"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI3" text="03"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI4" text="04"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI5" text="05"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI6" text="06"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI7" text="07"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI8" text="08"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI9" text="09"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI10" text="10"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI11" text="11"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI12" text="12"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI13" text="13"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI14" text="14"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI15" text="15"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI16" text="16"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI17" text="17"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI18" text="18"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI19" text="19"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI20" text="20"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI21" text="21"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI22" text="22"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI23" text="23"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI24" text="24"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI25" text="25"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI26" text="26"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI27" text="27"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI28" text="28"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI29" text="29"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI30" text="30"></MenuItem>
-                            <MenuItem  mnemonicParsing="false" onAction="#handleI31" text="31"></MenuItem>
-                            </items>
-                        </MenuButton>
-                        <MenuButton fx:id="month" text="MONTH">
+                        <TextField fx:id="dayField" promptText="DAY"></TextField>
+                        <MenuButton fx:id="monthButton" text="MONTH">
                             <items>
                                 <MenuItem  mnemonicParsing="false" onAction="#handleIJanuary" text="Januar"></MenuItem>
                                 <MenuItem  mnemonicParsing="false" onAction="#handleIFebruary" text="February"></MenuItem>
@@ -87,7 +56,14 @@
                                 <MenuItem  mnemonicParsing="false" onAction="#handleIDecember" text="December"></MenuItem>
                             </items>
                         </MenuButton>
-                        <TextField fx:id="year" promptText="YEAR"></TextField>
+                        <TextField fx:id="yearField" promptText="YEAR"></TextField>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" spacing="20.0">
+                    <children>
+                        <Label  text="--------"/>
+                        <Button mnemonicParsing="false" onAction="#handleAdd" text="ADD"/>
+                        <Label  text="--------"/>
                     </children>
                 </HBox>
             </children>

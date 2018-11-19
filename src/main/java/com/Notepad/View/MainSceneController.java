@@ -4,13 +4,21 @@ package main.java.com.Notepad.View;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
+import javafx.scene.control.MenuButton;
+import javafx.scene.control.TextField;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class MainSceneController implements Initializable{
     public GUI gui;
-
+    @FXML private MenuButton monthButton;
+    @FXML private TextField dayField;
+    @FXML private TextField yearField;
+    private String day;
+    private String month;
+    private String year;
     /**
      * @brief setup for GUI
      * @param gui
@@ -36,133 +44,66 @@ public class MainSceneController implements Initializable{
     public void changeUser(ActionEvent event) {
     }
 
-    public void handleI1(ActionEvent event) {
-    }
-
-    public void handleI2(ActionEvent event) {
-    }
-
-    public void handleI3(ActionEvent event) {
-    }
-
-    public void handleI4(ActionEvent event) {
-    }
-
-    public void handleI5(ActionEvent event) {
-    }
-
-    public void handleI6(ActionEvent event) {
-    }
-
-    public void handleI7(ActionEvent event) {
-    }
-
-    public void handleI8(ActionEvent event) {
-    }
-
-    public void handleI9(ActionEvent event) {
-    }
-
-    public void handleI10(ActionEvent event) {
-    }
-
-    public void handleI11(ActionEvent event) {
-    }
-
-    public void handleI12(ActionEvent event) {
-    }
-
-    public void handleI13(ActionEvent event) {
-    }
-
-    public void handleI14(ActionEvent event) {
-    }
-    
-    public void handleI15(ActionEvent event) {
-    }
-    
-    public void handleI16(ActionEvent event) {
-    }
-
-
-    public void handleI17(ActionEvent event) {
-    }
-
-    public void handleI18(ActionEvent event) {
-    }
-
-    public void handleI19(ActionEvent event) {
-    }
-
-    public void handleI20(ActionEvent event) {
-    }
-
-    public void handleI21(ActionEvent event) {
-    }
-
-    public void handleI22(ActionEvent event) {
-    }
-
-    public void handleI23(ActionEvent event) {
-    }
-
-    public void handleI24(ActionEvent event) {
-    }
-
-    public void handleI25(ActionEvent event) {
-    }
-
-    public void handleI26(ActionEvent event) {
-    }
-
-    public void handleI27(ActionEvent event) {
-    }
-
-    public void handleI28(ActionEvent event) {
-    }
-
-    public void handleI29(ActionEvent event) {
-    }
-
-    public void handleI30(ActionEvent event) {
-    }
-
-    public void handleI31(ActionEvent event) {
-    }
-
     public void handleIJanuary(ActionEvent event) {
+        month = "01";
+        monthButton.setText("January");
     }
 
     public void handleIFebruary(ActionEvent event) {
+        month = "02";
+        monthButton.setText("February");
     }
 
     public void handleIMarch(ActionEvent event) {
+        month = "03";
+        monthButton.setText("March");
     }
 
     public void handleIApril(ActionEvent event) {
+        month = "04";
+        monthButton.setText("April");
     }
 
     public void handleIMai(ActionEvent event) {
+        month = "05";
+        monthButton.setText("Mai");
     }
 
     public void handleIJune(ActionEvent event) {
+        month = "06";
+        monthButton.setText("June");
     }
 
     public void handleIJuly(ActionEvent event) {
+        month = "07";
+        monthButton.setText("July");
     }
 
     public void handleIAugust(ActionEvent event) {
+        month = "08";
+        monthButton.setText("August");
     }
 
     public void handleISeptember(ActionEvent event) {
+        month = "09";
+        monthButton.setText("September");
     }
 
     public void handleIOctober(ActionEvent event) {
+        month = "10";
+        monthButton.setText("October");
     }
 
     public void handleINovember(ActionEvent event) {
+        month = "11";
+        monthButton.setText("November");
     }
 
     public void handleIDecember(ActionEvent event) {
+        month = "12";
+        monthButton.setText("December");
+    }
+
+    public void handleAdd(ActionEvent event) {
     }
 }

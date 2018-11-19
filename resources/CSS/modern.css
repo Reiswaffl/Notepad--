@@ -1,31 +1,38 @@
 .root{
-  -fx-background-color: #1c334a;
+  -fx-background-color: #2d3436;
   -fx-font-size: 16pt;
 }
 .label{
   -fx-font-family: Oxygen;
-  -fx-text-fill: #ec6a13;
+  -fx-text-fill: #74b9ff;
+  -fx-font-weight: bold;
 }
 
 .button{
-  -fx-background-color: #1c334a;
+  -fx-background-color: #74b9ff;
   -fx-font-size: 16;
-  -fx-text-fill:  #ec6a13;
-  -fx-border-color: #ec6a13;
+  -fx-text-fill:  #2d3436;
+  -fx-border-color: #74b9ff;
+  -fx-pref-width: 150;
 
+}
+.button .label{
+  -fx-font-family: Oxygen;
+  -fx-text-fill: #74b9ff;
+  -fx-font-weight: bold;
 }
 .button:hover{
   -fx-background-color: grey;
   -fx-font-size: 16;
-  -fx-text-fill:  #ec6a13;
-  -fx-border-color: #ec6a13;
+  -fx-text-fill:  #74b9ff;
+  -fx-border-color: #74b9ff;
 
 }
 .button:pressed{
   -fx-background-color: none;
   -fx-font-size: 16;
-  -fx-text-fill:  #ec6a13;
-  -fx-border-color:  #ec6a13;
+  -fx-text-fill:  #74b9ff;
+  -fx-border-color: #74b9ff;
 
 }
 .scroll-pane > .viewport {
@@ -44,25 +51,29 @@
 }
 .check-box .mark:active {
   -fx-background-color: #ec6a13;
-  -fx-border-color: #ec6a13 ;
+  -fx-border-color: #74b9ff ;
 }
 .menu-button .label {
-    -fx-text-fill: #ec6a13;
+    -fx-text-fill:#74b9ff;
     -fx-font-size: 12pt;
 }
 .menu-button {
-    -fx-background-color: #1c334a;
-    -fx-pref-width: 120;
+    -fx-background-color: #2d3436;
+    -fx-pref-width: 150;
     -fx-pref-heigh: 20;
-    -fx-border-color: #ec6a13;
+    -fx-border-color: #74b9ff;
 }
 .text-field{
-      -fx-background-color: #1c334a;
-      -fx-border-color: #ec6a13;
+      -fx-background-color: #2d3436;
+      -fx-border-color: #74b9ff;
       -fx-prompt-text-fill: grey;
       -fx-font-size: 12pt;
-      -fx-text-fill: #ec6a13;
+      -fx-text-fill: #74b9ff;
       -fx-pref-width: 100;
       -fx-pref-heigh: 20;
       -fx-border-width: 0 0 1 0;
+}
+.line {
+  -fx-fill: GREY;
+  -fx-stroke: GREY;
 }
