@@ -17,9 +17,16 @@ import java.util.Date;
 
 public class Test1 {
     public static void main(String[] args) {
-        Logic Logic = new Logic();
-        Logic.addNote("07.11.2018","12:00","13:00","meinKrassesNotepad");
-        Logic.addNote("07.11.2018","15:00","16:00","anderer Stuff");
-        System.out.println(Logic.getNotes());
+
+        String string = "13:00";
+        string = string.replaceAll("[^0-9]","");
+        System.out.println("String:  " + string);
+        System.out.println(filterStartEnd(string));
+    }
+    static public String filterStartEnd(String startEnd){
+        startEnd.replace(" ","");
+        startEnd = startEnd.replaceAll("[^0-9]","");
+        if(startEnd.length() > 4) return null;
+        return startEnd;
     }
 }

@@ -4,21 +4,27 @@ package main.java.com.Notepad.View;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import main.java.com.Notepad.Logic.Logic;
+
 public class MainSceneController implements Initializable{
     public GUI gui;
     @FXML private MenuButton monthButton;
     @FXML private TextField dayField;
     @FXML private TextField yearField;
+    @FXML private TextField startField;
+    @FXML private TextField endField;
+    private String start;
+    private String end;
     private String day;
     private String month;
     private String year;
+    Logic Logic = new Logic();
     /**
      * @brief setup for GUI
      * @param gui
@@ -105,5 +111,12 @@ public class MainSceneController implements Initializable{
     }
 
     public void handleAdd(ActionEvent event) {
+        day = dayField.getText();
+        dayField.clear();
+
+        year = yearField.getText();
+        yearField.clear();
+
+
     }
 }

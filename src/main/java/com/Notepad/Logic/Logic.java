@@ -11,6 +11,7 @@ import java.util.Date;
 public final class Logic {
     public static Converter converter = new Converter();
 
+    public Logic(){}
     public static void setup(){}
 
     /**

@@ -13,5 +13,7 @@
         <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
         <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
         <note date="12.03.jjjj" end="ss.mm" start="ss.mm">myContent</note>
-    <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note><note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note></user>
-</saves>>
+        <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
+        <note date="tt.mm.jjjj" end="ss.mm" start="ss.mm">myContent</note>
+    </user>
+</saves>
