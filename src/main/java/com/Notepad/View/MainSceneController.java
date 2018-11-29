@@ -4,12 +4,14 @@ package main.java.com.Notepad.View;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import main.java.com.Notepad.InputManagement.InputManagement;
 import main.java.com.Notepad.Logic.Logic;
 
 public class MainSceneController implements Initializable{
@@ -19,6 +21,7 @@ public class MainSceneController implements Initializable{
     @FXML private TextField yearField;
     @FXML private TextField startField;
     @FXML private TextField endField;
+    private InputManagement inputManagement = new InputManagement();
     private String start;
     private String end;
     private String day;
@@ -111,12 +114,24 @@ public class MainSceneController implements Initializable{
     }
 
     public void handleAdd(ActionEvent event) {
-        day = dayField.getText();
+        day = inputManagement.filterDay(dayField.getText());
         dayField.clear();
 
-        year = yearField.getText();
+        year = inputManagement.filterYear(yearField.getText());
         yearField.clear();
 
+        start = inputManagement.filterStartEnd(startField.getText());
+        startField.clear();
 
+        end = inputManagement.filterStartEnd(endField.getText());
+        endField.clear();
+
+        if(day == null || start == null || end == null || year == null){
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Fehler beim Eintragen");
+            alert.setContentText("Eingabe fehlerhaft");
+            alert.showAndWait();
+        }
+        Logic.addNote(day+"."+month+"."+year,start,end,"Termin");
     }
 }

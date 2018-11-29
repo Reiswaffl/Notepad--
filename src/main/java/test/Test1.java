@@ -1,5 +1,6 @@
 package main.java.test;
 
+import main.java.com.Notepad.InputManagement.InputManagement;
 import main.java.com.Notepad.Logic.Logic;
 import main.java.com.Notepad.ReturnValue.Note;
 import main.java.com.Notepad.XML.Converter;
@@ -17,16 +18,7 @@ import java.util.Date;
 
 public class Test1 {
     public static void main(String[] args) {
-
-        String string = "13:00";
-        string = string.replaceAll("[^0-9]","");
-        System.out.println("String:  " + string);
-        System.out.println(filterStartEnd(string));
-    }
-    static public String filterStartEnd(String startEnd){
-        startEnd.replace(" ","");
-        startEnd = startEnd.replaceAll("[^0-9]","");
-        if(startEnd.length() > 4) return null;
-        return startEnd;
+        InputManagement inputManagement = new InputManagement();
+        System.out.println(inputManagement.filterYear("200020"));
     }
 }
