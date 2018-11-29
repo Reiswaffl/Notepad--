@@ -4,29 +4,35 @@ package main.java.com.Notepad.View;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
-import javafx.scene.control.MenuButton;
-import javafx.scene.control.TextField;
+import javafx.geometry.Pos;
+import javafx.scene.control.*;
 
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
-import main.java.com.Notepad.InputManagement.InputManagement;
+import javafx.scene.layout.HBox;
+import main.java.com.Notepad.Controller.InputManagement;
 import main.java.com.Notepad.Logic.Logic;
+import main.java.com.Notepad.ReturnValue.Note;
 
 public class MainSceneController implements Initializable{
     public GUI gui;
     @FXML private MenuButton monthButton;
+    @FXML private Label information;
+    @FXML private TextField nameField;
     @FXML private TextField dayField;
     @FXML private TextField yearField;
     @FXML private TextField startField;
     @FXML private TextField endField;
+    @FXML private TextField contentField;
     private InputManagement inputManagement = new InputManagement();
     private String start;
     private String end;
     private String day;
     private String month;
     private String year;
+    String content;
     Logic Logic = new Logic();
     /**
      * @brief setup for GUI
@@ -43,7 +49,8 @@ public class MainSceneController implements Initializable{
      */
     @Override
     public void initialize(URL location, ResourceBundle resources){
-
+        month = "00";
+        update();
     }
 
     /**
@@ -126,12 +133,22 @@ public class MainSceneController implements Initializable{
         end = inputManagement.filterStartEnd(endField.getText());
         endField.clear();
 
-        if(day == null || start == null || end == null || year == null){
+        content = inputManagement.filterContent(contentField.getText());
+        contentField.clear();
+
+        if(day == null || start == null || end == null || year == null || content == null || month.equals("00")){
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Fehler beim Eintragen");
             alert.setContentText("Eingabe fehlerhaft");
             alert.showAndWait();
+        }else {
+            Logic.addNote(day + "." + month + "." + year, start, end, content);
         }
-        Logic.addNote(day+"."+month+"."+year,start,end,"Termin");
+        update();
+    }
+
+    public void update(){
+        information.setText(Logic.getNotes());
+        nameField.setText(Logic.getCurrentUser());
     }
 }

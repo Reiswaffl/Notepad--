@@ -55,6 +55,10 @@ public final class Logic {
         return "Nutzer noch nicht eingetragen";
     }
 
+    /**
+     * @brief collects the Notes of a day an brings them in a form that is good to show
+     * @return String
+     */
     public static String getNotes(){
         Date date = new Date();
         DateFormat dayFormat = new SimpleDateFormat("dd.MM.yyyy");
@@ -67,4 +71,11 @@ public final class Logic {
         return noteReturn;
     }
 
+    /**
+     * @brief returns the name of the current user
+     * @return String
+     */
+    public static String getCurrentUser(){
+        return converter.getCurrentUser();
+    }
 }

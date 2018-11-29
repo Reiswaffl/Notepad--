@@ -77,3 +77,13 @@
   -fx-fill: GREY;
   -fx-stroke: GREY;
 }
+#contentField{
+  -fx-background-color: #2d3436;
+  -fx-border-color: #74b9ff;
+  -fx-prompt-text-fill: grey;
+  -fx-font-size: 12pt;
+  -fx-text-fill: #74b9ff;
+  -fx-pref-width: 150;
+  -fx-pref-heigh: 20;
+  -fx-border-width: 0 0 1 0;
+}
