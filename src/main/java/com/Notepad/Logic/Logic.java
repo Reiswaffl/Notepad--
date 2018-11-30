@@ -25,6 +25,13 @@ public final class Logic {
         converter.addNote(converter.getCurrentUser(),date,start,end,content);
     }
 
+    public String selectUser(String name){
+        if(switchUser(name) != null){
+            addUser(name);
+            return "Nutzer " + name + "wurde eingetragen";
+        }
+        return null;
+    }
     /**
      * @brief adds user, if the name doesn't exist yet
      * @param name name the user is supposed to have

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Notepad--:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a1864693-94f3-4f7e-83c3-15d6b90e5da5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/XML/saves.xml" afterPath="$PROJECT_DIR$/resources/XML/saves.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Notepad/Logic/Logic.java" afterPath="$PROJECT_DIR$/src/main/java/com/Notepad/Logic/Logic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Notepad/View/MainSceneController.java" afterPath="$PROJECT_DIR$/src/main/java/com/Notepad/View/MainSceneController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,13 +19,37 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="Logic.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/Logic/Logic.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="374">
+                    <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+                    <folding>
+                      <element signature="method#addNote#0;class#Logic#0" expanded="false" />
+                      <element signature="method#switchUser#0;class#Logic#0" expanded="false" />
+                      <element signature="method#getNotes#0;class#Logic#0" expanded="false" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MainSceneController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/MainSceneController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="151" column="48" lean-forward="false" selection-start-line="151" selection-start-column="48" selection-end-line="151" selection-end-column="48" />
+            <state relative-caret-position="429">
+              <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#setGui#0;class#MainSceneController#0" expanded="false" />
@@ -26,6 +57,7 @@
                 <element signature="method#initialize#0;class#MainSceneController#0" expanded="false" />
                 <element signature="docComment;method#changeUser#0;class#MainSceneController#0" expanded="false" />
                 <element signature="method#handleAdd#0;class#MainSceneController#0" expanded="false" />
+                <element signature="method#update#0;class#MainSceneController#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -34,8 +66,8 @@
       <file leaf-file-name="saves.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/XML/saves.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="355" lean-forward="false" selection-start-line="17" selection-start-column="355" selection-end-line="17" selection-end-column="355" />
+            <state relative-caret-position="34">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -75,8 +107,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Notepad/InputManagement/InputManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Notepad/Controller/DateSelect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Notepad/View/MainScene.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Notepad/View/MainSceneController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Notepad/Logic/Logic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Notepad/View/MainSceneController.java" />
         <option value="$PROJECT_DIR$/resources/XML/saves.xml" />
       </list>
     </option>
@@ -106,7 +138,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,12 +230,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -401,7 +436,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -464,20 +498,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/MainScene.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
           <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/GUI.java">
@@ -490,22 +524,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/MainScene.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/Test1.java">
@@ -520,6 +548,7 @@
         <state relative-caret-position="1785">
           <caret line="105" column="4" lean-forward="false" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
           <folding>
+            <element signature="e#349#350#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
             <element signature="docComment;method#addNote#0;class#Converter#0" expanded="false" />
             <element signature="method#addNote#0;class#Converter#0" expanded="false" />
@@ -528,7 +557,6 @@
             <element signature="docComment;method#setUser#0;class#Converter#0" expanded="false" />
             <element signature="method#setUser#0;class#Converter#0" expanded="false" />
             <element signature="docComment;method#getNotes#0;class#Converter#0" expanded="false" />
-            <element signature="method#getNotes#0;class#Converter#0" expanded="false" />
             <element signature="docComment;method#getCurrentUser#0;class#Converter#0" expanded="false" />
             <element signature="method#getCurrentUser#0;class#Converter#0" expanded="false" />
             <element signature="docComment;method#getUserNames#0;class#Converter#0" expanded="false" />
@@ -559,13 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="87" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -578,6 +600,7 @@
         <state relative-caret-position="1785">
           <caret line="105" column="4" lean-forward="false" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
           <folding>
+            <element signature="e#349#350#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
             <element signature="docComment;method#addNote#0;class#Converter#0" expanded="false" />
             <element signature="method#addNote#0;class#Converter#0" expanded="false" />
@@ -586,7 +609,6 @@
             <element signature="docComment;method#setUser#0;class#Converter#0" expanded="false" />
             <element signature="method#setUser#0;class#Converter#0" expanded="false" />
             <element signature="docComment;method#getNotes#0;class#Converter#0" expanded="false" />
-            <element signature="method#getNotes#0;class#Converter#0" expanded="false" />
             <element signature="docComment;method#getCurrentUser#0;class#Converter#0" expanded="false" />
             <element signature="method#getCurrentUser#0;class#Converter#0" expanded="false" />
             <element signature="docComment;method#getUserNames#0;class#Converter#0" expanded="false" />
@@ -617,13 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -636,6 +652,7 @@
         <state relative-caret-position="1785">
           <caret line="105" column="4" lean-forward="false" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
           <folding>
+            <element signature="e#349#350#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
             <element signature="docComment;method#addNote#0;class#Converter#0" expanded="false" />
             <element signature="method#addNote#0;class#Converter#0" expanded="false" />
@@ -644,7 +661,6 @@
             <element signature="docComment;method#setUser#0;class#Converter#0" expanded="false" />
             <element signature="method#setUser#0;class#Converter#0" expanded="false" />
             <element signature="docComment;method#getNotes#0;class#Converter#0" expanded="false" />
-            <element signature="method#getNotes#0;class#Converter#0" expanded="false" />
             <element signature="docComment;method#getCurrentUser#0;class#Converter#0" expanded="false" />
             <element signature="method#getCurrentUser#0;class#Converter#0" expanded="false" />
             <element signature="docComment;method#getUserNames#0;class#Converter#0" expanded="false" />
@@ -660,13 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/Logic/Logic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -836,14 +846,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/Controller/DateSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/Controller/DateSelect.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/Controller/InputManagement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -865,14 +868,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/XML/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -896,20 +892,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/MainScene.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="30" column="72" lean-forward="false" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/View/MainSceneController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="151" column="48" lean-forward="false" selection-start-line="151" selection-start-column="48" selection-end-line="151" selection-end-column="48" />
+        <state relative-caret-position="429">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#setGui#0;class#MainSceneController#0" expanded="false" />
@@ -917,32 +913,106 @@
             <element signature="method#initialize#0;class#MainSceneController#0" expanded="false" />
             <element signature="docComment;method#changeUser#0;class#MainSceneController#0" expanded="false" />
             <element signature="method#handleAdd#0;class#MainSceneController#0" expanded="false" />
+            <element signature="method#update#0;class#MainSceneController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Notepad/Logic/Logic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        <state relative-caret-position="374">
+          <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding>
             <element signature="method#addNote#0;class#Logic#0" expanded="false" />
-            <element signature="method#addUser#0;class#Logic#0" expanded="false" />
             <element signature="method#switchUser#0;class#Logic#0" expanded="false" />
             <element signature="method#getNotes#0;class#Logic#0" expanded="false" />
-            <element signature="e#2443#2444#0" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/XML/saves.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="355" lean-forward="false" selection-start-line="17" selection-start-column="355" selection-end-line="17" selection-end-column="355" />
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Notepad--:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Notepad--</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

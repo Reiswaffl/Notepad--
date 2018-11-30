@@ -58,6 +58,8 @@ public class MainSceneController implements Initializable{
      * @param event
      */
     public void changeUser(ActionEvent event) {
+        Logic.selectUser(nameField.getText());
+        update();
     }
 
     public void handleIJanuary(ActionEvent event) {
